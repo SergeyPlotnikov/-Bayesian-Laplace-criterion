@@ -1,0 +1,23 @@
+{
+  "name": "serhii/bayes-laplas",
+  "authors": [
+    {
+      "name": "Serhii",
+      "email": "serega_mu_fun@ukr.net"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "Thing.php",
+      "SetOfStuff.php",
+      "MakingDecisions.php",
+      "DB.php"
+    ],
+    "files": [
+      "loadSetOfStuff.php"
+    ]
+  },
+  "require": {
+    "twbs/bootstrap": "4.0.0"
+  }
+}
